@@ -38,7 +38,7 @@ setup your envirenment variables (.env)
 run research_assistant.py
 
 * 5:
-check out [LangSmith](https://docs.smith.langchain.com/) for [tracing] (https://docs.smith.langchain.com/concepts/tracing).
+check out [LangSmith](https://docs.smith.langchain.com/) for [tracing](https://docs.smith.langchain.com/concepts/tracing).
 
 * 6:
 or run the langGraph studio using "laggraph dev" command
