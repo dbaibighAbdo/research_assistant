@@ -23,24 +23,24 @@ Our goal is to build a lightweight, multi-agent system around chat models that c
 * We'll use customizable prompts for the report, allowing for a flexible output format. 
 
 
-##Instructions
+## Instructions
 
 * 1:
-`you need python3.11 or +` 
+you need python3.11 or +
 
 * 2:
-`pip install -r requirements.txt`
+pip install -r requirements.txt
 
 * 3:
-`setup your envirenment variables (.env)`
+setup your envirenment variables (.env)
 
 * 4:
-`run research_assistant.py` 
+run research_assistant.py
 
 * 5:
-`check out [LangSmith](https://docs.smith.langchain.com/) for [tracing] (https://docs.smith.langchain.com/concepts/tracing).` 
+check out [LangSmith](https://docs.smith.langchain.com/) for [tracing] (https://docs.smith.langchain.com/concepts/tracing).
 
 * 6:
-`or run the langGraph studio using "laggraph dev" command`
+or run the langGraph studio using "laggraph dev" command
 
 
