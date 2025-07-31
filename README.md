@@ -22,6 +22,9 @@ Our goal is to build a lightweight, multi-agent system around chat models that c
 * The gathered insights from each interview will be synthesized into a final report.
 * We'll use customizable prompts for the report, allowing for a flexible output format. 
 
+-----------------------------------------------------------------------------------
+![Screenshot 2024-08-26 at 7.26.33 PM.png](https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/66dbb164d61c93d48e604091_research-assistant1.png)
+-----------------------------------------------------------------------------------
 
 ## Instructions
 
