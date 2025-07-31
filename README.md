@@ -1,5 +1,7 @@
 # research_assistant
 
+##### this is a graph based workflow built with (LangGraph/LangChain)
+
 Our goal is to build a lightweight, multi-agent system around chat models that customizes the research process.
 
 `Source Selection` 
