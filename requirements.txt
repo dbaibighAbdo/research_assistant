@@ -5,3 +5,4 @@ langchain-openai
 tavily-python
 wikipedia
 pydantic
+langgraph-cli[inmem]
