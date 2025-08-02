@@ -39,31 +39,26 @@ You can check your version with:
 
 ```bash
 python --version
+```
 2. Install dependencies
 Use pip to install all required packages:
 
-bash
-Copier
-Modifier
+```bash
 pip install -r requirements.txt
+```
 3. Set up environment variables
 Create a .env file in the root directory and configure the necessary environment variables.
 
 💡 Example:
+---- .env.example ----
 
-ini
-Copier
-Modifier
-OPENAI_API_KEY=your_api_key_here
-LANGCHAIN_TRACING_V2=true
-LANGCHAIN_PROJECT=your_project_name
 4. Run the Research Assistant
 Start the assistant with:
 
-bash
-Copier
-Modifier
+```bash
 python research_assistant.py
+```
+
 5. Enable Tracing with LangSmith
 LangSmith helps trace and debug your agents effectively.
 Check out the documentation:
@@ -75,9 +70,8 @@ Check out the documentation:
 6. (Optional) Use LangGraph Studio
 You can launch an interactive development studio for LangGraph using:
 
-bash
-Copier
-Modifier
+```bash
 langgraph dev
+```
 
 
