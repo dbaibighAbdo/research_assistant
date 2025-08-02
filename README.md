@@ -61,11 +61,9 @@ python research_assistant.py
 
 5. Enable Tracing with LangSmith
 LangSmith helps trace and debug your agents effectively.
-Check out the documentation:
+Check out the:
 
-🌐 LangSmith Docs
-
-📊 Tracing Concepts
+[tracing](https://docs.smith.langchain.com/concepts/tracing).
 
 6. (Optional) Use LangGraph Studio
 You can launch an interactive development studio for LangGraph using:
