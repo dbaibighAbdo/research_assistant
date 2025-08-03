@@ -28,24 +28,48 @@ Our goal is to build a lightweight, multi-agent system around chat models that c
 ![Screenshot 2024-08-26 at 7.26.33 PM.png](https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/66dbb164d61c93d48e604091_research-assistant1.png)
 -----------------------------------------------------------------------------------
 
-## Instructions
 
-* 1:
-you need python3.11 or +
+## 🚀 Getting Started
 
-* 2:
+Follow these steps to set up and run the project:
+
+### 1. Install Python 3.11 or higher  
+Ensure you have **Python 3.11+** installed on your system.  
+You can check your version with:
+
+```bash
+python --version
+```
+2. Install dependencies
+Use pip to install all required packages:
+
+```bash
 pip install -r requirements.txt
+```
+3. Set up environment variables
+Create a .env file in the root directory and configure the necessary environment variables.
 
-* 3:
-setup your envirenment variables (.env)
+💡 Example:
+---- .env.example ----
 
-* 4:
-run research_assistant.py
+4. Run the Research Assistant
+Start the assistant with:
 
-* 5:
-check out [LangSmith](https://docs.smith.langchain.com/) for [tracing](https://docs.smith.langchain.com/concepts/tracing).
+```bash
+python research_assistant.py
+```
 
-* 6:
-or run the langGraph studio using "laggraph dev" command
+5. Enable Tracing with LangSmith
+LangSmith helps trace and debug your agents effectively.
+Check out the:
+
+[tracing](https://docs.smith.langchain.com/concepts/tracing).
+
+6. (Optional) Use LangGraph Studio
+You can launch an interactive development studio for LangGraph using:
+
+```bash
+langgraph dev
+```
 
 
