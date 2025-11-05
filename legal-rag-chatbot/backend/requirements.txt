@@ -1,0 +1,29 @@
+# Backend Requirements
+# 
+# This backend uses Supabase Edge Functions running on Deno runtime.
+#
+# Dependencies are managed in two ways:
+#
+# 1. Deno Dependencies (Edge Functions)
+#    - Imported via URLs in code (no package manager needed)
+#    - See functions/chat-rag/index.ts and functions/process-pdf/index.ts
+#    - Main dependencies:
+#      - Deno std library (https://deno.land/std@0.168.0/http/server.ts)
+#      - Supabase JS client (https://esm.sh/@supabase/supabase-js@2)
+#      - XHR module (https://deno.land/x/xhr@0.1.0/mod.ts)
+#
+# 2. Supabase CLI (Optional - for local development)
+#    Install via npm: npm install -g supabase
+#    Or via Deno: deno install --allow-all -n supabase https://raw.githubusercontent.com/supabase/cli/main/cli.ts
+#
+# Environment Variables Required:
+#    - SUPABASE_URL: Your Supabase project URL
+#    - SUPABASE_ANON_KEY: Your Supabase anonymous key
+#    - LOVABLE_API_KEY: Lovable AI API key (for chat-rag function)
+#
+# If adding Python services in the future, add packages below:
+#
+# fastapi==0.104.1
+# uvicorn==0.24.0
+# pydantic==2.5.0
+# python-dotenv==1.0.0
