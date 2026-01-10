@@ -1,7 +1,0 @@
-project_id = "lxkqfkmfvzdfjkqkgdpo"
-
-[functions.chat-rag]
-verify_jwt = true
-
-[functions.process-pdf]
-verify_jwt = true
